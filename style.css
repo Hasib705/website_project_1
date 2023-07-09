@@ -1,0 +1,72 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.menu-container{
+    background-color:rgb(69, 71, 73);
+    display:flex;
+    padding:20px;
+    list-style:none;
+    color:white;
+    align-items:center;
+    justify-content:space-around;
+}
+
+.menus{
+    display:flex;
+    justify-content:space-around;
+}
+.geekfolio{
+    width:200px;
+    /* padding:20px; */
+}
+
+.item{
+    margin:20px;
+    font-size:18px;
+    cursor:pointer;
+}
+
+nav li:hover{
+    background-color:rgb(96, 97, 99);
+    color:aquamarine;
+    padding:5px;
+    /* cursor:pointer; */
+}
+
+/* This is The Banner Section  */
+
+.banner-container{
+    display:flex;
+    justify-content:space-around;
+    height:100vh;
+    align-items:center;
+    color:white;
+    /* border: 2px solid greenyellow; */
+    background-image: url("/digital-products-b8/images/background.png"),linear-gradient(45deg,rgb(8,8,8), rgb(53,53,53));
+}
+
+.banner-image{
+    width:300px;
+    
+}
+.title{
+    font-size:53px;
+    font-weight:bold;
+}
+
+.banner-description{
+    font-size:small;
+    margin-top:15px;
+    margin-bottom:15px;
+}
+.banner-button{
+    padding:10px 20px;
+    background-color:orange;
+    color:white;
+    border:none;
+}
+.banner-button:hover{
+    color:orangered;
+    cursor:pointer;
+}
